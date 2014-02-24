@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- FYI ... so I could better examine the code, I re-spaced it.
+     No actual code or content has been changed; just spacing.
+-->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume</title>
+   </head>
+
+   <body>
+
+    <header>
+      <h1>Kristi Townsend</h1>
+    </header>
+
+    <!-- You could add the following information to the header -->
+
+    <p><strong>Email</strong>: kristianntownsend@gmail.com</p>
+
+    <!-- You can use an 'a' tag to create a link for your email address
+         which would allow someone to click on it and send you an 
+         email. You should still look into how one does that, but that 
+         method is a way spammers harvest email addresses, so... 
+         instead, try using http://hivelogic.com/enkoder/ to include a 
+         link to your email address.
+    -->
+
+    <p><strong>Phone Number</strong>: (786) 427-7318</p>
+    <p><a href="http://www.linkedin.com/in/kristitownsend" title="Linkedin Profile">linkedin.com/in/kristitownsend</a></p>
+
+      <!-- top information should be centered -->
+
+      <!-- Insert somesort of line break here -->
+
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#professionalexperience">Professional Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#skills">Skills</a>
+      <a href="#extracurricular">Extracurricular</a>
+    </nav>
+
+    <!-- Well done here. 
+
+         The values for each anchor are good, especially because they
+         will show up in a url bar when clicked:
+
+         resume.html#skills
+
+         That's kind of an added bonus for user interface and 
+         experience. 
+
+         Remember, you could use an unordered list for your navigation
+         which may help styling. Or, perhaps, you'll find a way to
+         style this without using a list. :)
+    -->
+
+    <section>
+      <a id="education"></a>
+      <header>
+        <h2>Education</h2>
+      </header>
+
+      <!-- So, this is interesting ... you are actually using header
+           in a proper way as spec documents allow it to be used. A
+           header /can/ be used multiple times.
+
+           One thought, though - - there is no need to over-code in
+           this case. 
+
+           What you've done in using the header within the section
+           is probably ideal for, say, a news article on a web page
+           or a blog entry. 
+
+           Because this section is pretty simple, the h2 really
+           handles describing the header of the section. But in a 
+           really detailed page with many sections, it wouldn't 
+           necessarily be a bad thing to incorporate.
+
+           You certainly have not done anything wrong here. This is a
+           perfect example of the judgment calls I talk about all the
+           time in class. Is the extra code necessary? Sometimes it
+           is, sometimes it isn't. 
+
+           Nice way to think outside (or inside?) the box!
+
+      -->
+
+      <p><strong>University of Miami</strong>, Coral Gables, FL. 2012-Present</p>
+      <p>Bachelor of Science in Communication</p>
+      <p>Major in Visual Journalism, Minor in Psychology</p>
+    </section>
+
+      <!-- Insert somesort of line break here -->
+
+    <section>
+      <a id="professionalexperience"></a>
+      <header>
+        <h2>Professional Experience</h2>
+      </header>
+
+    	<p><strong>Contributing Photographer</strong>, The Miami Hurricane August 2013-Present</p>
+    	<p><strong>Contributing Photographer</strong>, The Ibis February 2013-Present</p>
+    	<p><strong>Contributing Photographer</strong>, Distraction Magazine September 2013-Present</p>
+
+      <!-- Going back to the idea of a detailed section ... here you
+           might benefit from sectioning each of your experiences with
+           the article tag.
+
+           I suppose it seems pretty obvious with your title on the 
+           three listings above, but any reason you did not include
+           details on your responsibilities? Perhaps you could add
+           what kind of subjects you shot for each publication? Perhaps
+           it is a chance to show diversity in subject matter?
+      -->
+
+     	<p><strong>Cinema Green Project Coordinator</strong>, Environmental Coalition of Miami and the Beaches May 2013-July 2013</p>
+     	<ul>
+    		<li>Researched and chose environmental films that met project criteria</li>
+     		<li>Negotiated film screening rights and worked to get significant reductions in screening fees</li>
+     		<li>Acted as liaison between the venue and ECOMB to arrange calendar dates and film schedules</li>
+        <!-- What is ECOMB? Maybe use the abbr tag here to explain? -->
+     		<li>Promoted events through media outlets</li>
+     		<li>Researched grants and reached out to local businesses and organizations to develop partnerships and gain sponsorships</li>
+     		<li>Reached out to other local non-profit organizations to partner with for specific events</li>
+     	</ul>
+    
+     	<p><strong>Sailing Instructor</strong>, Coconut Grove Sailing Club September 2008-August 2012</p>
+      <ul>
+      	<li>Taught 6-15 year olds the fundamental elements of sailing and how to properly handle a small sailboat</li>
+      	<li>Dealt directly and extensively with adolescents, some of which had ADHD and mild autism</li>
+        <!-- ADHD - - another opportunity to include an abbr tag -->
+      	<li>Learned and perfected the skills necessary to encourage, direct and calm younger children</li>
+      	<li>Earned a Level One Sailing Instructor certification with US Sailing in 2010, along with First Aide and CPR certifications</li>
+        <!-- spell check on aid -->
+      </ul>
+
+    </section>
+
+      <!-- Insert somesort of line break here -->
+
+    <section>
+      <a id="leadership"></a>
+      <header>
+        <h2>Leadership</h2>
+      </header>
+
+      <!-- Again, this is where 'article' tags would be beneficial -->
+
+    	<p><strong>Historian</strong>, Chi Omega Fraternity Upsilon Delta Chapter December 2013-Present</p>
+     	<ul>
+     		<li>Photographs chapter events, collects and organizes historical documents on the chapter, produces an all inclusive file of chapter information</li>
+     	</ul>
+ 
+     	<p><strong>Support Team Leader</strong>, Chi Omega Fraternity Upsilon Delta Chapter December 2013-Present</p>
+     	<ul>
+     		<li>Serves as a liasion between new and current members of the chapter, guides and assists new members transition into the chapter, organizes team events to foster bonding</li>
+        <!-- spell check on liaison -->
+     	</ul>
+
+     	<p><strong>Public Relations Chair</strong>, University of Miami Photography Club September 2013-Present</p>
+     	<ul>
+     		<li>Coordinates all club marketing efforts, maintains website, designs logos and slogans for promotional materials, prepares advertisements</li>
+     	</ul>
+
+     	<p><strong>Level One Instructor</strong>, Coconut Grove Sailing Club April 2010-August 2012</p>
+     	<ul>
+     		<li>Head of beginning level sailing group</li>
+     		<li>Instructed groups of 15-25 young children the basics of sailing with the help of some volunteers and lower level instructors</li>
+     	</ul>
+
+    </section>
+
+      <!-- Insert somesort of line break here -->
+
+    <section>
+      <a id="skills"></a>
+      <header>
+      	<h2>Skills</h2>
+      </header>
+
+    	<ul>
+    		<li>Adobe Photoshop, Lightroom, Premiere and Illustrator skills</li>
+     		<li>Extensive 35 mm black and white darkroom photography experience</li>
+     		<li>Social media management skills</li>
+      </ul>
+
+    </section>
+
+      <!-- Insert somesort of line break here -->
+
+      <!-- By the way, really good job here to note where you might 
+           want to display some sort of styling as opposed to coding
+           it in. Good detail beyond the code to keep you organized.
+      -->
+
+    <section>
+      <a id="extracurricular"></a>
+      <header>
+      	<h2>Extracurricular</h2>
+      </header>
+
+     	<ul>
+     		<li>Member of the Univeristy of Miami Sailing Team, Photography Club and Chi Omega Fraternity</li>
+        <!-- spell check on university -->
+     	</ul>
+
+    </section>
+      
+  </body>
+
+</html>
