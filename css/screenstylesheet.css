@@ -1,0 +1,41 @@
+@media (max-width: 320px) {
+	
+#container {
+	width: 320px;
+}
+#body {
+	margin: 5px;
+}
+nav{
+	font-family: sans-serif;
+}
+nav ul {
+	padding-left: 0;
+}
+nav ul li {
+	list-style: none;
+	color: black;
+	padding: .5em;
+	display: block;
+	max-width: 100%;
+
+}
+nav a {
+	font-weight: bold;
+	outline: solid;
+	text-decoration: none;
+	padding-left: 2em;
+	padding-right: 2em;
+} 
+/* #experience {
+	padding-left: 2em;
+	padding-right: 2em;
+} */
+span {
+	float: none;
+}
+
+
+
+
+}

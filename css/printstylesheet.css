@@ -1,0 +1,29 @@
+@media print {
+
+* {
+	background: transparent;
+	color: #000;
+	font-family: Times, serif;
+}
+@page {
+	margin: .5cm;
+}	
+h1 {
+	font-size: 24pt;
+	font-family: 'Cinzel', serif; 
+	font-weight: 400;
+}
+nav {
+	display: none;
+}
+h2 {
+	font-size: 14pt;
+}
+#body {
+	font-size: 12pt;
+}
+
+
+
+
+}

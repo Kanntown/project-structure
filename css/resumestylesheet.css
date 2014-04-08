@@ -1,0 +1,53 @@
+* {
+	font-family: sans-serif; 
+	color: black;
+}
+#container {
+	text-align: center;
+	text-decoration: none;
+}
+#container p a:hover {
+	color: #00FFFF;
+	text-decoration: none;
+}
+nav{
+	font-family: sans-serif;
+}
+nav ul {
+	padding-left: 0;
+}
+nav ul li {
+	list-style: none;
+	display: inline;
+	color: black;
+}
+nav a {
+	width: 550px;
+	height: 35px;
+	font-weight: bold;
+	outline: solid;
+	padding-right: 1em;
+	padding-left: 1em; 
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #00FFFF;
+}
+body {
+	background-image: url("../img/fresh_snow.png");
+	background-repeat: repeat;
+}
+#body {
+	margin: 40px;
+	font-family: sans-serif;
+}
+span {
+	float: right;
+}
+h1 {
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #333333;
+}
+h2 {
+	border-bottom: solid black 5px;
+}
